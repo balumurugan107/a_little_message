@@ -128,6 +128,9 @@ export default function Home() {
           🌸 Aye Sinamika AI 🤖
         </h1>
         <p className="mt-6 text-xl text-gray-700 max-w-2xl animate-fade-in delay-500">
+        &quot;As per the imaginary french calendar the date arrives🌚&quot;
+        <br/>
+        <br />
           &quot;Once upon a time, love letters were written on paper. Now? Well, welcome to the digital age—I made you a whole website instead. I mean, why settle for a text when I can be extra?🌚&quot;
           <br />
           <br />
