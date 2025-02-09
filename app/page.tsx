@@ -38,11 +38,11 @@ export default function Home() {
   const toggleAudio = () => {
 
     if (!isPlaying) {
-      var audio = document.getElementById('a1');
+      let audio = document.getElementById('a1');
       audio?.play();
       setIsPlaying(true);
     } else {
-      var audio = document.getElementById('a1');
+      let audio = document.getElementById('a1');
       audio?.pause();
       setIsPlaying(false);
     }
