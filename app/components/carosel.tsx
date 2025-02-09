@@ -42,12 +42,12 @@ export default function Carousel() {
       </div>
 
       {/* Left Button */}
-      <button onClick={prevSlide} className="absolute left-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:scale-110">
+      <button onClick={prevSlide} className="absolute left-2 top-1/2 -translate-y-1/2 bg-black p-2 rounded-full shadow-lg hover:scale-110">
         ◀
       </button>
 
       {/* Right Button */}
-      <button onClick={nextSlide} className="absolute right-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:scale-110">
+      <button onClick={nextSlide} className="absolute right-2 top-1/2 -translate-y-1/2 bg-black p-2 rounded-full shadow-lg hover:scale-110">
         ▶
       </button>
 

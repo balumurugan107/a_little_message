@@ -171,6 +171,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section 3.5: Fun Conversation – The ☻ Chronicles */}
+      <section className="min-h-screen w-full flex flex-col items-center justify-center text-center p-8 bg-pink-100/50">
+        <h2 className="text-5xl font-bold text-purple-700 animate-fade-in bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
+          ☻ The Legendary Emoji ☻
+        </h2>
+        <p className="mt-6 text-xl text-gray-700 max-w-2xl animate-fade-in delay-500">
+          "Hey emoji queen, You know, I literally installed a whole app just to find this emoji ☻. And now? It’s not just an emoji—it’s an emotion ☻."
+          <br /><br />
+          "Happy? ☻
+          Sarcastic? ☻
+          Annoyed but pretending to be fine? ☻
+          Completely roasting each other but with love? ☻☻"
+          <br /><br />
+          "At this point, we don’t even need words—just ☻ and vibes."
+        </p>
+        <div className="mt-10 flex flex-col items-center gap-8">
+          <div className="text-6xl font-bold text-purple-700 animate-pulse">
+            ☻ ☻ ☻
+          </div>
+          <div className="w-64 h-64 md:w-96 md:h-96 relative rounded-lg overflow-hidden shadow-2xl">
+            <img
+              src="/black-smiling-face.png" // Replace with a funny image or GIF
+              alt="Funny ☻ Moment"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Section 3: Carousel – Next, Next, Love, You */}
       <section className="min-h-screen w-full flex flex-col items-center justify-center text-center p-8 bg-purple-100/50">
         <h2 className="text-5xl font-bold text-rose-700 animate-fade-in bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-pink-500">
