@@ -36,7 +36,7 @@ export default function Home() {
 
   // Function to toggle audio play/pause
   const toggleAudio = () => {
-    const audio = document.getElementById('a1');
+    const audio = document.getElementById('a1') as HTMLAudioElement;
     if (!isPlaying) {
       audio?.play();
       setIsPlaying(true);
