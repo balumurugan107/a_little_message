@@ -177,17 +177,22 @@ export default function Home() {
           ☻ The Legendary Emoji ☻
         </h2>
         <p className="mt-6 text-xl text-gray-700 max-w-2xl animate-fade-in delay-500">
-          "Hey emoji queen, You know, I literally installed a whole app just to find this emoji ☻. And now? It’s not just an emoji—it’s an emotion ☻."
-          <br /><br />
-          "Happy? ☻
+          &quot;Hey emoji queen, You know, I literally installed a whole app just to find this emoji ☻. And now? It’s not just an emoji—it’s an emotion ☻.&quot;
+          <br />
+          <br />
+          &quot;Happy? ☻
+          <br />
           Sarcastic? ☻
+          <br />
           Annoyed but pretending to be fine? ☻
-          Completely roasting each other but with love? ☻☻"
-          <br /><br />
-          "At this point, we don’t even need words—just ☻ and vibes."
+          <br />
+          Completely roasting each other but with love? ☻☻&quot;
+          <br />
+          <br />
+          &quot;At this point, we don’t even need words—just ☻ and vibes.&quot;
         </p>
         <div className="mt-10 flex flex-col items-center gap-8">
-          <div className="text-6xl font-bold text-purple-700 animate-pulse">
+          <div className="text-6xl font-bold text-purple-700 animate-bounce">
             ☻ ☻ ☻
           </div>
           <div className="w-64 h-64 md:w-96 md:h-96 relative rounded-lg overflow-hidden shadow-2xl">
@@ -199,6 +204,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
 
       {/* Section 3: Carousel – Next, Next, Love, You */}
       <section className="min-h-screen w-full flex flex-col items-center justify-center text-center p-8 bg-purple-100/50">
