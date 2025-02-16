@@ -1,17 +1,11 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
 import emailjs from "emailjs-com";
-import Carousel from "./components/carosel";
 
 export default function Home() {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [carouselIndex, setCarouselIndex] = useState(0);
-    const [showConfetti, setShowConfetti] = useState(false);
-    const noButtonRef = useRef<HTMLButtonElement>(null);
     const audioRef = useRef<HTMLAudioElement>(null);
-    const { width, height } = useWindowSize();
 
     // Function to toggle audio play/pause
     const toggleAudio = () => {
@@ -27,7 +21,6 @@ export default function Home() {
     };
 
     const triggerWhenVisitSite = () => {
-        setShowConfetti(true);
 
         // EmailJS Parameters
         const serviceID = "service_r669ah7";
@@ -49,7 +42,6 @@ export default function Home() {
                 console.error("Error sending email:", error);
             });
 
-        setTimeout(() => setShowConfetti(false), 5000);
     };
 
     useEffect(() => {
