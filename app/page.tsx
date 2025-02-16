@@ -92,7 +92,7 @@ export default function Home() {
                             I can understand what phase you are going through... I truly and strongly believe that you too love me, from when I texted you first to now. That made me create this site. The saddest part is I dreamt a life with you 🙃.
                         </p>
                         <p>
-                            Mistakes are common, I promise you that I won't ask you about any of them. That's none of my business.
+                            Mistakes happen, and I want you to know that I won’t bring them up. Your past is yours, and I respect that completely.
                         </p>
                         <p>
                             And one more thing, when you're completely away from the phase you're going through right now, think that I'm waiting for you.
