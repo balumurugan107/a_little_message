@@ -92,13 +92,13 @@ export default function Home() {
                             I can understand what phase you are going through... I truly and strongly believe that you too love me, from when I texted you first to now. That made me create this site. The saddest part is I dreamt a life with you 🙃.
                         </p>
                         <p>
-                            Mistakes happen, and I want you to know that I won’t bring them up. Your past is yours, and I respect that completely.
+                            Mistakes happen, and I want you to know that I won&apos;t bring them up. Your past is yours, and I respect that completely.
                         </p>
                         <p>
-                            And one more thing, when you're completely away from the phase you're going through right now, think that I'm waiting for you.
+                            And one more thing, when you&apos;re completely away from the phase you&apos;re going through right now, think that I&apos;m waiting for you.
                         </p>
                         <p>
-                            I don’t have the courage to message you after that night, but if you feel even a fraction of what I feel for you, maybe you could reply with that black smiley or sarcastic emoji? Either in DM, notes, or story, I’d love it if you could set aside any hesitation, just for me. But if not, that’s okay too—I’ll understand. I care about you enough to respect your space, and I’ll be alright.
+                            I don&apos;t have the courage to message you after that night, but if you feel even a fraction of what I feel for you, maybe you could reply with that black smiley or sarcastic emoji? Either in DM, notes, or story, I&apos;d love it if you could set aside any hesitation, just for me. But if not, that&apos;s okay too—I&apos;ll understand. I care about you enough to respect your space, and I&apos;ll be alright.
                         </p>
                         <p className="text-purple-600 font-semibold">
                             I deserve you☻.
